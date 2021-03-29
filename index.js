@@ -74,4 +74,4 @@ client.connect(err => {
 
 
 
-app.listen(port, 5000)
+app.listen(process.env.PORT||port)
